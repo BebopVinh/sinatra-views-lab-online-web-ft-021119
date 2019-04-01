@@ -1,6 +1,6 @@
 class App < Sinatra::Base
 
-	get '/' do
+	get '/:route' do
 		erb :index
 	end
 
