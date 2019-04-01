@@ -4,6 +4,6 @@ class App < Sinatra::Base
 	end
 
 	get '/:route' do
-		erb params[:route]
+		erb params[:route].to_sym
 	end
 end
