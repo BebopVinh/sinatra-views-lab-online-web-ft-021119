@@ -1,7 +1,7 @@
 class App < Sinatra::Base
 
 	get '/:route' do
-		erb :index
+		erb params[:route]
 	end
 
 
