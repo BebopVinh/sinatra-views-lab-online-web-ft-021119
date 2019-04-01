@@ -5,4 +5,4 @@ require 'bundler/setup'
 Bundler.require(:default, ENV['SINATRA_ENV'])
 
 require_relative '../app'
-require_all '../views'
+require_all './views'
